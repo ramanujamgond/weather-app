@@ -1,0 +1,36 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather app using nodejs using openweather api and ejs html templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramanujamgond/weather-app.git"
+  },
+  "keywords": [
+    "node.js",
+    "js",
+    "javascript",
+    "express",
+    "ejs",
+    "html",
+    "templates",
+    "openweather"
+  ],
+  "author": "Ramanujam Gond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramanujamgond/weather-app/issues"
+  },
+  "homepage": "https://github.com/ramanujamgond/weather-app#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  }
+}
